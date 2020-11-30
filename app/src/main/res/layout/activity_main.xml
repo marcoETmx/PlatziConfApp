@@ -25,10 +25,11 @@
 
         <fragment
             android:id="@+id/fragContent"
+            android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/bnvMenu"
-            app:navGraph="@navigation/nav_grap"
+            app:navGraph="@navigation/nav_graph"
             app:defaultNavHost="true"/>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -36,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            app:menu="@menu/bnvmenu"/>
+            app:menu="@menu/bnv_menu"/>
 
     </RelativeLayout>
 

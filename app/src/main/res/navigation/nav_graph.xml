@@ -50,15 +50,15 @@
 
     <dialog
         android:id="@+id/speakersDetailFragmentDialog"
-        android:name="com.marcoelizalde.platziconf.ui.fragments.SpeakersDatailDialogFragment"
+        android:name="com.marcoelizalde.platziconf.ui.fragments.SpeakersDetailDialogFragment"
         android:label="SpeakerDetailFragmentDialog"
-        tools:layout="@layout/fragment_speakers_datail_dialog"/>
+        tools:layout="@layout/fragment_speakers_detail_dialog"/>
 
     <dialog
         android:id="@+id/scheduleDetailFragmentDialog"
-        android:name="com.marcoelizalde.platziconf.ui.fragments.ScheduleDatailDialogFragment"
+        android:name="com.marcoelizalde.platziconf.ui.fragments.ScheduleDetailDialogFragment"
         android:label="ScheduleDetailFragmentDialog"
-        tools:layout="@layout/fragment_schedule_datail_dialog"/>
+        tools:layout="@layout/fragment_schedule_detail_dialog"/>
     <dialog
         android:id="@+id/ubicationDetailFragmentDialog"
         android:name="com.marcoelizalde.platziconf.ui.fragments.UbicationDetailDialogFragment"
