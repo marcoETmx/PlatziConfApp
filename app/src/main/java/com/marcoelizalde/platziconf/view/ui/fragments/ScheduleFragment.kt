@@ -1,4 +1,4 @@
-package com.marcoelizalde.platziconf.ui.fragments
+package com.marcoelizalde.platziconf.view.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

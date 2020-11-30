@@ -1,4 +1,4 @@
-package com.marcoelizalde.platziconf.ui.activities
+package com.marcoelizalde.platziconf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
